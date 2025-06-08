@@ -1,0 +1,29 @@
+commit bf5bd91bcba88545669e390a51ba74aab4f61216
+Author: Parallels <parallels@kali-linux-2022-2.localdomain>
+Date:   Sun Jun 8 18:35:07 2025 +0300
+
+    Adding gitlog to Task1
+
+commit 629f9b146cbdcb1d8faf0358e41c4db64bd39be7
+Author: Parallels <parallels@kali-linux-2022-2.localdomain>
+Date:   Sun Jun 8 18:24:10 2025 +0300
+
+    Added gitignore file
+
+commit 903ef6e753eaa32e03b126c0f57b95eb2a5e7b7a
+Author: Parallels <parallels@kali-linux-2022-2.localdomain>
+Date:   Sun Jun 8 18:20:31 2025 +0300
+
+    Added readme to new feature branch
+
+commit 365cfa87a7a11335402fccc47927fa45568e007f
+Author: Parallels <parallels@kali-linux-2022-2.localdomain>
+Date:   Sun Jun 8 18:18:01 2025 +0300
+
+    Added test file to dev branch
+
+commit ded9ebbd7f444ab817749ef29a78e76e1f95d415
+Author: Parallels <parallels@kali-linux-2022-2.localdomain>
+Date:   Sun Jun 8 16:24:02 2025 +0300
+
+    init commit
