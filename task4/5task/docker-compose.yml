@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  web:
+    build: ./custom_image
+    deploy:
+      replicas: 3
+    ports:
+      - "8080-8082:80"
+    environment:
+      - DEVOPS=${DEVOPS}
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+  app:
+    build: ./java-app
+    depends_on:
+      - db
+    ports:
+      - "${JAVA_APP_PORT}:8080"
+volumes:
+  db-data:
